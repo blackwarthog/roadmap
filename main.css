@@ -3,7 +3,16 @@ body {
     background-color: #ffffff;
 }
 
-body>div, body>div>div {
+body>div {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+body>div>div {
     position: absolute;
 }
 
